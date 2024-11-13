@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(139, 135, 135);
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(20, 56, 13);
+    color: white;
+    font-size: small;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+header a,
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+header h2 {
+    margin-right: 30px;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-left: 50px;
+}
+
+.nav_link li:hover {
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    padding: 2px 9px;
+}
+
+button {
+    background-color: rgb(169, 169, 0);
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    padding: 7px 15px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.kertas {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: auto;
+    max-width: auto;
+    box-shadow: 0px 4px 8px;
+}
+
+.abme {
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.bio {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-bottom: 50px;
+}
+
+.desc-bio {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.exp {
+    text-align: center;
+}
+
+.experience {
+    text-align: center;
+    justify-content: center;
+}
+
+table {
+    align-items: center;
+    table-layout: fixed;
+    width: 50%;
+    border: solid 1px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+th,
+td {
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: rgb(20, 56, 13);
+}
+
+.FunFact {
+    text-align: center;
+}
+
+.ff {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-me {
+    margin-top: 100px;
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.point {
+    margin-top: 60px;
+}
